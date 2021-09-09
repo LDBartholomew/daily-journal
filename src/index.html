@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+    
+</head>
+<body>
+
+    <header>
+        <h2>Daily Journal</h2>
+    </header>
+    <form action="#">
+        <fieldset>
+            <label for="journalDate">Date</label>
+            <input type="date" name="journalDate" id="journalDate"> 
+        </fieldset>
+    </form>
+    <form> 
+        <fieldset>
+            <label for="journalName">Entry Name</label>
+            <textarea name="journalName" id="journalName" cols="30" rows="20"></textarea>
+        </fieldset>
+    </form>
+    <form> 
+        <fieldset>
+            <label for="journalContent">Entry Content</label>
+            <textarea name="journalContent" id="journalContent" cols="30" rows="20"> </textarea>
+        </fieldset>
+    </form>
+    <form> 
+        <fieldset>
+            <label for="journalMood">Mood</label>
+            <select id="journalMood"> 
+                <option value="happy">Happy</option>
+                <option value="excited">Excited</option>
+                <option value="stressed">Stressed</option>
+                <option value="discouraged">Discouraged</option>
+                </select>
+        </fieldset>
+        <button class="entryButton">Write in Journal</button>
+    </form>
+    <main>
+        <article>
+            <section>
+                <p>
+                    <h2>SpaceHolder</h2>
+                </p>
+                <a></a>
+            </section>
+        </article>
+        
+    </main>
+    <footer>&COPY; 2021</footer>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
