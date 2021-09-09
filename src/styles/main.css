@@ -1,0 +1,12 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.body {
+    background: #F0F5F9;
+    color: #001B36;
+    font-family: 'Raleway', serif;
+    font-weight: 400;
+}
+
